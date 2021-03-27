@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/Uniswap/uniswap-interface'
+const CODE_LINK = 'https://github.com/tollswap/tollswap-interface'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()
@@ -127,7 +127,7 @@ export default function Menu() {
           </MenuItem>
           {account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
-              Claim UNI
+              Claim TOLL
             </ButtonPrimary>
           )}
         </MenuFlyout>
